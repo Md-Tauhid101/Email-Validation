@@ -20,6 +20,8 @@ if len(email)>=6:                           #g@g.in
                                 a=1
                         if a==1:
                             print("Wrong email(No use of special Characters)")
+                        else:
+                            print("Wright email")
                     else:
                         print("Wrong email(email must be in lowercase)")
                 else:
