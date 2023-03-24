@@ -14,7 +14,7 @@ if len(email)>=6:                           #g@g.in
                 if temp2==0:
                     if email.islower():
                         for i in email:
-                            if i=="_" or i=="." or i=="@":
+                            if i.isalnum() or i=="_" or i=="." or i=="@":
                                 continue
                             else:
                                 a=1
